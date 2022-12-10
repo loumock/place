@@ -26,8 +26,8 @@ class Place {
 			httpProt = "http://";
 		} else {
 			host = window.location.hostname;
-			wsProt = "wss://";
-			httpProt = "https://";
+			wsProt = "ws://";
+			httpProt = "http://";
 		}
 
 		this.#connect(wsProt + host + "/ws");
